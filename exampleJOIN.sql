@@ -1,0 +1,1 @@
+SELECT * FROM school.notes join school.student on student.student_id=notes.student_id where student.degree=11 and student.class='A';
